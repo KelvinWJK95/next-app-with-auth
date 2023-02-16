@@ -1,0 +1,20 @@
+.signupContainer {
+  text-align: center;
+  background-color: white;
+  width: 300pt;
+}
+
+
+.h1 {
+  padding: 25px;
+  margin: 20px 0;
+}
+
+
+@media screen and (min-width: 45rem) {
+  .signupContainer {
+    border-radius: 0.75rem;
+    box-shadow: 0 0.3125rem 1rem -0.1875rem rgb(0 0 0 / 20%);
+    padding:20px;
+  }
+}

@@ -1,0 +1,82 @@
+.organizationContainer {
+  background-color: white;
+  max-width: 72rem;
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "pic"
+  "sidebar"
+  "desc"
+  "comment";
+}
+
+.organizationPic{
+  grid-area: pic;
+}
+
+.organizationHeader{
+  grid-area: header;
+}
+
+.organizationSidebar{
+  grid-area: sidebar;
+}
+
+.organizationDesc{
+  max-width: 72rem;
+  grid-area: desc;
+  margin-top: 2.5rem;
+  
+}
+
+.organizationComment{
+  grid-area: comment;
+  margin-top: 2.5rem;
+  
+}
+
+.organizationTitle{
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.wrapText{
+  overflow: hidden;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+@media screen and (min-width: 60rem) {
+  .organizationContainer {
+      grid-template-areas: 
+      "header header header"
+      "pic pic sidebar"
+      "desc desc sidebar"
+      "comment comment  sidebar";
+      grid-template-columns: 2fr 2fr 1.7fr;
+  }
+
+  .organizationSidebar{
+      margin-left: 3rem;
+  }
+
+  .organizationContainerWrapper{
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 60rem) {
+  .organizationHeader{
+    padding: 1rem;
+  }
+  
+  .organizationDesc{
+    padding: 1rem;
+  }
+  
+  .organizationComment{
+    padding: 1rem;
+  }
+  
+}
