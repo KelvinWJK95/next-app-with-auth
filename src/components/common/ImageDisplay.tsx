@@ -12,7 +12,7 @@ const ImageDisplay = () => {
         if(image.current?.complete){
             setImageLoaded(styles.image)
         }
-    })
+    },[ setImageLoaded ])
     return (
         <img  ref={image} src="/images/church.jpg" alt="placeholderImage" className={imageLoaded}/>
     )
