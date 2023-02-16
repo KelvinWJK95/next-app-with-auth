@@ -26,7 +26,7 @@ function Header(){
         setRender(true)
 
         if(pathname === '/login') setIsLoggingout(false)
-    })
+    }, [ isLoggingout, pathname, isLoggedin ])
     const handleLogout = () => {
         router.push("/login")
         removeCookie("token", { path: "/" })

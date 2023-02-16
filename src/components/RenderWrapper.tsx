@@ -1,4 +1,4 @@
-export default (props:
+const RenderWrapper = (props:
   { 
     children: any,
       render: boolean
@@ -9,3 +9,5 @@ export default (props:
     return <></>
   }
 }
+
+export default RenderWrapper

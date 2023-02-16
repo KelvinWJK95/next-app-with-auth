@@ -1,6 +1,6 @@
 import { useRouter } from 'next/navigation'
 
-export default (props:
+ const AuthButton = (props:
   { 
     islogin: boolean,
     authenticated: boolean,
@@ -17,3 +17,5 @@ export default (props:
       return (props.authenticated?<span onClick={props.handleLogout} className="clickableTextButton">Logout</span>:<span onClick={handleLogin} className="clickableTextButton">Login</span>)
     }
 }
+
+export default AuthButton

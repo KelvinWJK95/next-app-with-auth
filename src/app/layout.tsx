@@ -23,7 +23,7 @@ export default function RootLayout({
           </div>
           <footer className={styles.appFooter}>
             <div className={styles.descriptionSection}>
-              <code>2023 @ This website is coded using React.js & Next.js that consumes API that is built with Golang web services</code>
+              <code>2023 @ This website is coded using Next.js & Typescript that consumes API that is built with Golang web services</code>
             </div>
           </footer>
         </div>

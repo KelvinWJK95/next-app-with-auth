@@ -5,7 +5,7 @@ import { useCookies } from 'react-cookie'
 import { useEffect, useState } from 'react'
 import RenderWrapper from './RenderWrapper'
 
-export default ({ children }: any) => {
+const ProtectedRoute =  ({ children }: any) => {
   const router = useRouter();
   const [ cookies ] = useCookies(['token'])
   const [ render, setRender ] = useState(false)
@@ -18,7 +18,8 @@ export default ({ children }: any) => {
     else
       router.push("/login")
 
-  })
+  }, [ isLoggedin, setRender, router ])
 
   return <RenderWrapper render={render}>{children}</RenderWrapper>
 }
+export default ProtectedRoute
