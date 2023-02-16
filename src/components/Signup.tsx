@@ -62,7 +62,7 @@ export default function Signup(){
         const formData = new FormData()
         formData.append("email", props.email)
         formData.append("password", props.password)
-        fetch("http://35.192.17.83:81/register",{
+        fetch( process.env.NEXT_PUBLIC_API_URL + "/register",{
             method: 'POST',
             body: formData
         })

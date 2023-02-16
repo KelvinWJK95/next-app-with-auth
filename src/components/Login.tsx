@@ -63,7 +63,8 @@ export default function Login(){
         const formData = new FormData()
         formData.append("email", props.email)
         formData.append("password", props.password)
-        fetch("http://35.192.17.83:81/login",{
+
+        fetch( process.env.NEXT_PUBLIC_API_URL + "/login",{
             method: 'POST',
             body: formData
         })
