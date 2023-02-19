@@ -23,6 +23,7 @@ const Pledge = (props:
     const [ isMonthly, setIsMonthly ] = useState(false)
     const [ isAnonymous, setIsAnonymous ] = useState(false)
     useEffect(()=>{
+        window.scrollTo(0, 0)
         setTotal(Number(amount)+fee)
     }, [ amount, fee ])
     const handleInputNum = (e: React.FormEvent<HTMLInputElement>) => {
