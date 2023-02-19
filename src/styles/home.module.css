@@ -1,5 +1,5 @@
 .homeContainer {
-  background-color: white;
-  max-width: 40rem;
+  max-width: 25rem;
+  margin: 0 auto;
   text-align: center;
 }

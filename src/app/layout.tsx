@@ -19,7 +19,9 @@ export default function RootLayout({
             <Header/>
           </header>
           <div className={styles.appBody}>
-            {children}
+            <div className={styles.appWrapper}>
+              {children}
+            </div>
           </div>
           <footer className={styles.appFooter}>
             <div className={styles.descriptionSection}>

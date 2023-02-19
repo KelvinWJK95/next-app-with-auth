@@ -1,7 +1,7 @@
 const RenderWrapper = (props:
   { 
     children: any,
-      render: boolean
+    render: boolean
   }) => {
   if(props.render){
     return props.children

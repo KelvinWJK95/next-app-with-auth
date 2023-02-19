@@ -4,9 +4,9 @@ import CommentBoard from '../../../components/CommentBoard'
 import ImageDisplay from '../../../components/common/ImageDisplay'
 
 
-export default function Page() {
+function Page({ params }: any) {
   return (
-    <div className={styles.organizationContainerWrapper}><div className={styles.organizationContainer}>
+  <div className={styles.organizationContainer}>
       <div className={styles.organizationHeader}>
           <h1 className={styles.organizationTitle}>Methodist Church</h1>
       </div>
@@ -22,12 +22,15 @@ export default function Page() {
 
       </div>
       <div className={styles.organizationSidebar}>
-          <ActionBar/>
+          <ActionBar name={params.name}/>
       </div>
       
       <div className={styles.organizationComment}>
           <CommentBoard/>
       </div>
-    </div></div>
+    </div>
   )
 }
+
+
+export default Page

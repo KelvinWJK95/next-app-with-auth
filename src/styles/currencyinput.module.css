@@ -1,0 +1,52 @@
+.currencyInput {
+  font-size: 2rem;
+  border: 0;
+  outline: 0;
+  text-align: right !important;
+  font-weight: 300;
+  font-family: inherit;
+  width: 100%;
+}
+
+.currencyContainer {
+  font-size: 2rem;
+  cursor:text;
+  font-weight: 300;
+  padding: 0.6rem 1rem;
+  display: inline-flex;
+  width: 100%;
+}
+
+.currencyMonthly {
+  font-size: 1.2rem;
+  padding-left: 2px;;
+  white-space: nowrap;
+}
+
+.currencySign {
+  font-weight: 300;
+  line-height: 125%;
+  padding: 0 0.3rem;
+}
+
+.errorMessage {
+  text-align: right; 
+  padding: 0.5rem;
+  color: rgb(224, 26, 43);
+}
+.normalBorder {
+  border: 1px solid rgb(167, 167, 167);
+  border-radius: 0.75rem;
+
+}
+.errorBorder {
+  border: 1px solid rgb(224, 26, 43);
+  border-radius: 0.75rem;
+}
+
+.errorBorder:focus-within {
+  border: 1px solid black;
+}
+.normalBorder:focus-within {
+  border: 1px solid black;
+}

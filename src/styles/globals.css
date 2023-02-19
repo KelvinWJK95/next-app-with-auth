@@ -66,20 +66,47 @@ a {
   text-decoration: none;
 }
 
-.clickableTextButton{
+.clickableTextButton {
   cursor: pointer;
   user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
   font-size: 14px;
 }
 
-.clickableTextButtonWhite{
+.clickableTextButtonWhite {
   font-size: 14px;
   color: white;
   font-family: inherit;
   cursor: pointer;
 }
 
-.disabled{
+.buttonBorder {
+  border: 1px solid rgb(167, 167, 167);
+  border-radius: 0.75rem;
+}
+
+.buttonBorder:active {
+  position: relative;
+  top: 1px;
+}
+
+.buttonBorder:hover {
+  background-color: rgb(247, 247, 247);
+}
+
+.disabled {
   pointer-events: none;
   opacity: 0.4;
+}
+
+.spacerLine {
+  border-top: 1px solid #c8c8c8;
+  margin: 1.5rem 0;
+}
+
+
+.spacerLineLite {
+  border-top: 1px solid #f1f1f1;
+  margin: 1rem 0;
 }

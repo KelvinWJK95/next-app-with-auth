@@ -24,7 +24,7 @@ const Input = (props:
             placeholder={props.placeholder}
             style={{padding:"10px", width: "100%", boxSizing: "border-box", borderWidth:"0 0 1px", outline:"0"}}
             />
-            {(props.error.hasError)?<div style={{textAlign:"left", fontSize:"11px", color:"red"}}>{props.error.message}</div>:<></>}
+            {(props.error.hasError)?<div style={{textAlign:"left", fontSize:"11px", color:"rgb(224, 26, 43)"}}>{props.error.message}</div>:<></>}
         </div>
     )
 }

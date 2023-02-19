@@ -130,6 +130,7 @@ export default function Signup(){
             backgroundColor="#2AB2DE"
             width="80%"
             padding="10px"
+            borderRadius="24px"
             onClick={signup}/>
         <span onClick={goBack} className="clickableTextButton">Back</span>
         <div style={{padding:"2rem"}}/>

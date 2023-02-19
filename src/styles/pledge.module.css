@@ -1,0 +1,21 @@
+.pledgeContainer {
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 60rem) {
+  .pledgeContainer{
+    padding:2.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.3125rem 1rem -0.1875rem rgb(0 0 0 / 20%);
+  }
+  
+}
+
+.pledgeTitle {
+  padding: 1rem 0;
+}
+
+.marginBottom {
+  margin-bottom: 1rem;
+}
+

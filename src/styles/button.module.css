@@ -1,0 +1,9 @@
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.button:hover {
+  opacity: 0.85;
+}

@@ -132,6 +132,7 @@ export default function Login(){
             backgroundColor="#2ADE9A"
             width="80%"
             padding="10px"
+            borderRadius="24px"
             onClick={login}/>
         <Link href="/signup" className="clickableTextButton">Sign Up</Link>
         <div style={{padding:"2rem"}}/>

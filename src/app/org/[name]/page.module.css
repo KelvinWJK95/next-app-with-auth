@@ -1,6 +1,4 @@
 .organizationContainer {
-  background-color: white;
-  max-width: 72rem;
   display: grid;
   grid-template-areas: 
   "header"
@@ -23,10 +21,8 @@
 }
 
 .organizationDesc{
-  max-width: 72rem;
   grid-area: desc;
   margin-top: 1.5rem;
-  
 }
 
 .organizationComment{
@@ -54,29 +50,25 @@
       "desc desc sidebar"
       "comment comment  sidebar";
       grid-template-columns: 2fr 2fr 1.7fr;
+      padding: 0 1rem;
   }
 
   .organizationSidebar{
       margin-left: 2rem;
   }
-
-  .organizationContainerWrapper{
-    margin: 1rem;
-    padding: 1rem;
-  }
 }
 
 @media screen and (max-width: 60rem) {
   .organizationHeader{
-    padding: 1rem;
+    padding: 2rem;
   }
   
   .organizationDesc{
-    padding: 1rem;
+    padding: 2rem;
   }
   
   .organizationComment{
-    padding: 1rem;
+    padding: 2rem;
   }
   
 }

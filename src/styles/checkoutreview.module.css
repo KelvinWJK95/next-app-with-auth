@@ -1,0 +1,18 @@
+.review dt {
+  float: left;
+  color:#767676;
+}
+
+.review dd {
+  text-align: right;
+  margin-bottom: 0.5rem;
+  color:#767676;
+}
+
+.summaryLeft{
+  color: var(--foreground-rgb) !important;
+}
+
+.summaryRight{
+  color: var(--foreground-rgb) !important;
+}

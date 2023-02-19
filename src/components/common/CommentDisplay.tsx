@@ -12,7 +12,7 @@ const CommentDisplay = (props:
         <div style={{display:"flex"}}>
         <div style={{textAlign:"left", padding:"5px 0", display:"flex"}}>
             <div style={{padding:"10px 5px 10px 0"}}>
-                <Image  src="/images/icons8-user-32-2.png" width={32} height={32} alt="userLogo"/>
+                <Image  src="/images/user-2.svg" width={32} height={32} alt="userLogo"/>
             </div>
             <div style={{fontSize:"12px", padding:"10px"}}>
                 <div style={{fontFamily:"sans-serif", fontWeight:"900"}}>{props.user}</div>

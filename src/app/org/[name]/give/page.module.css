@@ -1,0 +1,21 @@
+
+.giveContainer {
+  background-color: white;
+  display: grid;
+  grid-template-areas: 
+  "page";
+  grid-template-columns: 1fr;
+}
+
+.givePage {
+  grid-area: page;
+}
+
+
+@media screen and (min-width: 60rem) {
+  .giveContainer {
+    grid-template-areas: ". page .";
+    grid-template-columns: 3fr 8fr 3fr;
+}
+
+}

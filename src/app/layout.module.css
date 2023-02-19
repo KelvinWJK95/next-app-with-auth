@@ -33,8 +33,24 @@
 
 .appBody {
   min-height: 80vh;
-  display: flex;
-  justify-content: center;
+}
+
+.appWrapper {
+  max-width: 48rem;
+  margin: 0 auto;
+  background-color: white;
+}
+
+@media screen and (min-width: 60rem) {
+  .appWrapper {
+    max-width: 60rem;
+  }
+}
+
+@media screen and (min-width: 72rem) {
+  .appWrapper {
+    max-width: 72rem;
+  }
 }
 
 .appLink {
