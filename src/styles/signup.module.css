@@ -1,5 +1,5 @@
 .signupContainer {
-  width: 300pt;
+  max-width: 300pt;
   margin: 0 auto;
   text-align: center;
 }
